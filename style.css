@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: poppins;
+}
+
+h1, h2, h3, h4, h5, h6{
+ font-family: "Oswald";
+}
+
+body{
+    background-image: url(wood.png);
+    background-attachment: fixed;
+}
+
+/* navbar */
+
+.navbar{
+height: 7vh;
+width: 100%;
+background-color: #fff;
+position: fixed;
+box-shadow: 0  0  20px  black;
+display: flex;
+justify-content: center;
+}
+.logo{
+    height: 100%;
+    width: 15%;
+    background-image: url(logo.png);
+    background-size: cover;
+    background-position: center;
+}
+.nav-links{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.nav-links a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #999999;
+}
+
+/* main section */
+
+.box-container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.column-container{
+    height: 100%;
+    width: 90%;
+    margin-top: 15vh;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.column{
+    height: 100%;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.column .box {
+    width: 100%;
+    background-color: white;
+}
+.box-content{
+    padding: 20px;
+}
+.box a{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+.box p{
+    color: #454545;
+    font-size: 13px;
+}
+
+/* footer section */
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container{
+    width: 90%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-top: 2px white solid;
+    border-bottom: 2px white solid;
+    margin-top: 10px;
+}
+.footer-contant{
+    height: 80%;
+    width: 20%;
+    padding: 10px;
+}
+.footer-container input{
+    width: 70%;
+    border: none;
+}
+.footer-container button{
+    font-size: 12px;
+    border: none;
+}
+.footer-container span{
+    background-color: white;
+    color: #858585;
+    font-size: 18px;
+}
+.footer-container p{
+    font-size: 12px;
+    color: #454545;
+}
+.footer-container ul li{
+    font-size: 12px;
+    list-style: none;
+    color: #454545
+}
+
+/* footer end */
+
+.footer-end{
+    height: 5vh;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: #000000;
+}
